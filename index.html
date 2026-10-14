@@ -1,10 +1,3 @@
-<img
-  src="headshot.jpg"
-  alt="Michael Quach"
-  class="profile-photo"
->
-
-<h1>Michael Quach</h1>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Michael Quach | IT & Cybersecurity</title>
+  
   <style>
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00bfa6;
+  margin-bottom: 20px;
+}
     body {
       margin: 0;
       background: #0b1120;
@@ -46,14 +48,17 @@
   </style>
 </head>
 <body>
-  <header>MICHAEL QUACH / PORTFOLIO</header>
-
-  <main>
+<header>
+    <img
+        src="headshot.jpg"
+        alt="Michael Quach"
+        class="profile-photo"
+    >
     <h1>Michael Quach</h1>
-    <p class="subtitle">
-      IT Systems Professional | Cybersecurity
-    </p>
-    <p>
+    <p>IT Systems Professional | Cybersecurity</p>
+</header>
+<main>
+  <p>  
       Experienced IT professional with a background
       in enterprise technical support, systems
       troubleshooting, and infrastructure operations.
